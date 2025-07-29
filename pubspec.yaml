@@ -43,6 +43,7 @@ dependencies:
   logging: ^1.3.0
   json_annotation: ^4.9.0
   freezed: ^3.2.0
+  device_preview: ^1.3.1
 
 dev_dependencies:
   flutter_test:
@@ -86,6 +87,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: Open Sans Regular
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+    - family: Open Sans Bold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+    - family: Open Sans Light
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+    - family: Open Sans Medium
+      fonts:
+        - asset: assets/fonts/OpenSans-Medium.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
